@@ -1,0 +1,5 @@
+def sub_string(text,pattern):
+    return text.find(pattern)
+text="khaja hussain"
+pattern="hussain"
+print(sub_string(text,pattern))
